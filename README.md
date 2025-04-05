@@ -31,11 +31,12 @@ iwslt2025_bho-hi/
 **The data statistics are presented below:
 -----------------------------------------------------
 ```
-│ Language	        | Total_audios ( Total_Hours) | Total_translated_Sentences/   │
-│                       │                             │    Total_translated_Segements │ 
+│ Language	        | Total_audios ( Total_Hours) | Total_translated_Sentences/    │
+│                       │                             │    Total_translated_Segements  │ 
 │ Bhojpuri-Hindi (train) │      10171 (approx 19.88)  │          10171                 │
 │ Bhojpuri-Hindi (dev)   │      1056 (approx 2.07)    │          1056                  │
-│ Bhojpuri-Hindi (test-2024)  │      693 (approx  0.82)    │  -                              │
+│ Bhojpuri-Hindi (test-2024)  │      693 (approx  0.82)    │  -                        │
+│ Bhojpuri-Hindi (test-2025)  │      749 (approx  0.82)    │  -                        │
 ```
 <p>We point participants to additional Bhojpuri audio data (with transcriptions), parallel and monolingual corpora from here:</p>
 
@@ -46,6 +47,8 @@ iwslt2025_bho-hi/
 </ul>
 
 * NB: If you use [this dataset](https://storage.googleapis.com/test_public_bucket/external/labelled/Bhojpuri_newsonair_aligned_external_1_08-03-2022_07-36.zip) for your experiment, you may exclude [the following audio files](https://drive.google.com/file/d/1lGOwJ3B3ZJx3ehYEWck9Atx3cSwMpfbQ/view?usp=drive_link) from the dataset due to overlap.
+
+[April 2025 Update:] THE TEST DATA FOR 2025 IS NOW AVAILABLE [HERE](https://github.com/panlingua/iwslt2025_bho-hi/tree/main/test-2025)
 
 # License
 Please see the [LICENSE](https://github.com/panlingua/iwslt2025_bho-hi/blob/main/LICENSE.md) file.
